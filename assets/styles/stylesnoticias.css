@@ -1,0 +1,15 @@
+body {
+    background-image: url("/assets/img/azulpuntos.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;;
+    color: #5161d5;
+}
+
+.rounded-image {
+    border-radius: 10px; /* Puedes ajustar el valor según tu preferencia */
+}

@@ -1,0 +1,133 @@
+
+/* Diseño base de etiqueta body*/
+body{
+    text-align: center;
+    font-family: "Roboto", sans-serif;;
+    color: #575252;
+}
+
+/* Titulos */
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+#divContacto {
+    margin-top: 30px;
+    height: 80px;
+}
+
+/* Barra divisora */
+#barraDivisora {
+    width: 100%;
+    height: 30px;
+}
+
+
+/* Seccion de pregunta */
+#titulo{
+    margin: 20px;
+    text-align: center;
+}
+
+
+/*div del formulario*/
+#formulario {
+    width: 500px;
+
+}
+
+.datos {
+    width: 80%;
+
+    &:focus {
+        /*Cuando se da click en los inputs, se crea un resplandor*/
+        color: #707070;
+        font-weight: bold;
+        border: none;
+        box-shadow: 0 0 5px #d71787;
+        outline: 0px;
+    }
+    border: 2px solid #d1d1d1;
+}
+
+.divInputs {
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+#colorB {
+    background-color: #c43ee9;
+    font-family: "Roboto", sans-serif;;
+    width: 150px;
+     height: 50px;
+     font-size: 25px;
+     border-radius: 40px;
+     border: none;
+}
+
+#colorB:hover {
+    background-color: #ff8c66;
+    /* Cambia el color de fondo al pasar el mouse por encima */
+}
+
+/* Iconos pequeños */
+#iconoContacto{
+    width: 40px;
+    height: 40px;
+}
+
+#msgContacto{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+   
+}
+
+#enlace{
+    font-size: 18px;
+    text-decoration: none;
+    color: #707070;
+}
+
+/*Alertas*/
+.alert{
+    max-width: 100%;
+    display: none;
+}
+
+/*Alertas activadas*/
+.alert-activa{
+    
+    display: block;
+}
+/*Alertas activadas*/
+.alert-noactiva{
+    
+    display: none;
+}
+/*Este es el fondo de la pantalla*/
+body {
+    background-image: url("/assets/img");
+    background-size: cover;
+    background-repeat:no-repeat ; 
+}
+/*Imagen del container ccolor rosa*/
+.container-1 {
+    
+    padding: 25px;
+    width: 500px;
+    margin-left: auto; /* Corrección: "margin-left" en lugar de "margin left" */
+    margin-right: auto; /* Corrección: "margin-right" en lugar de "margin-right" */
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(237, 9, 165, 0.2);
+    }
+
+
+
+
+
+
+  

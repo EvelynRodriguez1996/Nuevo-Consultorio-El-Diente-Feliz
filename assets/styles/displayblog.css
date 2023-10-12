@@ -1,0 +1,91 @@
+/*Display
+
+Nos sirve para controlar como se muestra un elemento dentro de nuestro documento.
+
+Esta propiedad es distinta de position porque display se encarga de definir como se ocultan elementos (NO SE ELIMINA EL CODIGO).
+
+
+-none
+-inline
+-block
+-inline-block
+
+
+*/
+
+
+/* Estilos generales */
+body{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    }
+    
+
+/* Estilos para mis articulos */
+#articuloUno {
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 10px; /* Ajusta el valor según tu preferencia */
+}
+
+
+#articuloDos {
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 10px; /* Ajusta el valor según tu preferencia */
+}
+
+#articuloTres {
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 10px; /* Ajusta el valor según tu preferencia */
+}
+
+/*Este es el fondo de la pantalla*/
+body {
+    background-image: url("/assets/img/azulpuntos.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ; 
+}
+
+/*
+
+none
+
+Hace ue el elemento se oculte completamente, y que no ocupe espacio en la pagina (no se elimina), y este valor se utiliza comunmente para ocultar elementos debido a la interacción  con la ventana el navegador (un menu que se oculte cuando la ventana se haga pequeñita)
+
+
+
+
+inline
+
+Es el valor por defecto, hace que el elemento se muestre en linea con el texto que lo rodea.
+
+
+*/
+
+
+div ul li{
+    display: inline;
+    margin: 30px;
+  }
+
+
+
+
+
+/*block
+
+

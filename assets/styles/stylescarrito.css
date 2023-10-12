@@ -1,0 +1,162 @@
+/* Estilos generales*/
+ body {
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid white;
+    background-color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    border-radius: 10px; /* Ajusta el valor según tu preferencia */
+ }
+   
+/* Estilo para mis imagenes */
+img{
+   width: 30%;
+}
+
+
+
+/* Estilo a todo el contenedor de productos */
+.contenedorProductos{
+   margin: 20px;
+   padding: 20 pix;
+   border-radius: 10px; /* Ajusta el valor según tu preferencia */
+}
+
+
+
+
+
+/*Estilo a un producto en individual */
+#ProductoUno{
+   border: 1px solid black;
+   margin: 20px;
+   padding:20px;
+   background-color: white;
+   border-radius: 10px; /* Ajusta el valor según tu preferencia */
+  }
+
+
+#ProductoDos{
+   border: 1px solid black;
+   margin: 20px;
+   padding:20px;
+   background-color: white;
+   border-radius: 10px; /* Ajusta el valor según tu preferencia */
+   /* position:relative; top:200px;*/
+}
+
+
+#ProductoTres{
+   border: 1px solid black;
+   margin: 20px;
+   padding:20px;
+   background-color: white;
+   border-radius: 10px; /* Ajusta el valor según tu preferencia */
+}
+
+#botonInicio {
+   background-color: #a21a75; /* Cambia este valor al color que desees */
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 20px;
+   font-size: 16px;
+}
+
+.input-redondeado {
+   border-radius: 10px; /* Ajusta el valor según tu preferencia */
+   border: 1px solid #ccc; /* Puedes añadir un borde si lo deseas */
+   padding: 5px;
+   box-sizing: border-box;
+}
+
+
+
+
+
+
+#titulo{
+   position: sticky;
+   top: 1px;
+}
+
+/*Estilos de mi boton de inicio*/
+
+/*
+Valorposition
+
+
+En CSS, la propiedad de position nos srive para controlar la posiscion de un elemente dentro de un elemento en una pagina web, y  toma como consideración su pocisión dentro del documento y como se interpreta en el flujo de trabajo (de arriba a abajo y de izquierda a derecha).
+
+Con esta propiedad buscamos evitamos usar el uso indiscriminado del margin y el padding
+
+
+Valores que trabajan con position
+
+-static
+-relative
+-absolute
+-fixed
+-sticky
+*/
+
+/*
+
+Static
+
+Es el valor por defecto de todos los elementos que ponemos en nuestro documento.Respeta el flujo normal de la pagina, es decir, se posiciona en el lugar que le corresponde (conforme lee el documento), no se puede modificar con valores de margen  en top, bottom, right y left.
+
+
+Caso de uso: resumen de compras de un carrito de compras
+Relative
+
+Cuando usamosel valor relative, vamos aposicionarun elementorespecto al flujo normal de trabajo (arriba/abajo, izq/der). Se puede decir que vamos a colocar el elementotomando una posición desde la esquina superior izquierda de contenedor).
+
+Podemos usar Left, right, top y bottom para modificar la posición, con la ventaja que modificar esstos valores no "rompe" el flujo normal de trabajo. Es decir, el elemento se mueve y deja el espacio vacio.
+
+
+Caso de uso: un boton para ver el detalle del producto, que podemos mover a nuestro antojo.
+
+
+
+/*
+
+
+
+
+
+
+Absolute
+
+Cuando usamos el valor absoluto hacemos que nuestro elemento no este dentro del flujo normal del elemento (quiere decir que SI SE MOIFICAN LOS ELEMENTOS QUE ESTAN AL REDEDOR DEL ELEMENTO CON ABSOLUTE). Quiere decir que si modificamos, no dejamos huecos entre elementos.
+
+
+
+
+
+
+
+
+
+
+
+
+Fixed
+
+
+Hace que el elemento salga el flujo normal del documento, toma omo referencia al viewport o tomaño de la pantalla, es decir, no le hace caso a nadie mas que a la pnatalla por salirse des este flujo.
+
+Independientemente de si hacemos scroll o no, o incluso el tamaño de la pantalla, el boton se quedo fijo.
+
+
+
+
+
+sticky 
+
+Cuando usamos un elemento on esta propiedad, primero se comporta como un relative (respeta el flujo del documento), cuando ocurre una situación especial (tamaño en pixeles), cambia su comportamiento 
+
+
+*/

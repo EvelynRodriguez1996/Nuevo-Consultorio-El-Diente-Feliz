@@ -1,0 +1,23 @@
+/* Estolos generales */
+body{
+    text-align: center;
+}
+
+
+
+/*Estilos para mi imagen */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.imagen-redondeada {
+    border-radius: 10px; /* Ajusta el valor según tu preferencia */
+}
+
+.btn-redondeado {
+    border-radius: 20px;
+    background-color: #c62f9e;
+    color: #781865;
+    border: 2px solid #ff6600; /* Cambia el color del borde según tu preferencia */
+}

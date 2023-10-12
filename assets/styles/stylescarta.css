@@ -1,0 +1,19 @@
+#colorButton {
+    background-color: #80094e;
+    border-color: #80094e;
+    width: 14rem;
+    border-radius: 20px;
+    /* Otros estilos que desees aplicar */
+}
+body {
+    background-image: url("/assets/img/azulpuntos.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;;
+    color: #050611;
+}

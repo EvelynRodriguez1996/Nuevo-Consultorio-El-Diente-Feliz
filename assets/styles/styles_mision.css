@@ -1,0 +1,9 @@
+/* Estilos generales*/
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(159, 217, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    border-radius: 10px; /* Ajusta el valor según tu preferencia */
+  }
